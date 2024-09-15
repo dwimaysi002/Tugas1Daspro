@@ -1,0 +1,19 @@
+program alamat;
+uses crt;
+var
+    Jalan       : string;
+    No          : integer;
+    Kota        : string;
+    Kode_Pos    :integer;
+
+begin
+clrscr;
+    write('jalan    : '); readln(jalan);
+    write('No       :'); read(no);
+    readln;
+    write('kota     :'); readln(kota);
+    write('kode_pos :'); readln(kode_pos);
+
+    writeln;
+    writeln('Alamat :', jalan   ,'  No.'  ,no,' ',kota,' ',kode_pos);
+    end.
